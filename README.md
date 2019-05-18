@@ -1,5 +1,4 @@
-# PraktikumDKP_TA
-Tugas Akhir Praktikum DKP 2019
+# Tugas Akhir Praktikum DKP 2019
 Judul       : Aplikasi Login/Register Akun Sederhana
 Bahasa      : C# (Visual Studio)
 Nama        : Muhammad Syahrizal Fauzi
