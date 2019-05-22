@@ -11,7 +11,7 @@ namespace PraktikumDKP_TA
         {
             InitializeComponent();
             this.indexAkun = indexAkun;
-            labelNama.Text = "Selamat Datang!\n" + nama + "!";
+            labelNama.Text = "Selamat Datang\n" + nama + "!\nUsername anda : " + Program.akuns[indexAkun].GetUsername();
         }
 
         private void buttonSelesai_Click(object sender, EventArgs e)

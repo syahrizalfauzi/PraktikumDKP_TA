@@ -43,7 +43,7 @@
 			this.labelNama.Name = "labelNama";
 			this.labelNama.Size = new System.Drawing.Size(334, 123);
 			this.labelNama.TabIndex = 0;
-			this.labelNama.Text = "Selamat Datang\r\nMuhammasd asdasdasdasdoijasiojd";
+			this.labelNama.Text = "Selamat Datang\r\nnama!\r\nUsername anda : username";
 			this.labelNama.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.labelNama.Click += new System.EventHandler(this.labelNama_Click);
 			// 
