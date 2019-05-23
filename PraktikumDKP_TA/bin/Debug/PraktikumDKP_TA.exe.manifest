@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PraktikumDKP_TA.exe" size="21984">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PraktikumDKP_TA.exe" size="22496">
       <assemblyIdentity name="PraktikumDKP_TA" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6h8nILM8sRe7TEw5QGNPQLyYMYoISqYifC7Y5/D0+Aw=</dsig:DigestValue>
+        <dsig:DigestValue>vPubiVq1Wc4fQaQlAQPH10BrRbDDCpkger7S1L6iggc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

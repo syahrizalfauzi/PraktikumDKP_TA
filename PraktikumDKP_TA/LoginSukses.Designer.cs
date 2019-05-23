@@ -101,7 +101,10 @@
 			this.Controls.Add(this.buttonKembali);
 			this.Controls.Add(this.buttonSelesai);
 			this.Controls.Add(this.labelNama);
+			this.MaximizeBox = false;
 			this.Name = "LoginSukses";
+			this.ShowIcon = false;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Login Sukses";
 			this.ResumeLayout(false);
 

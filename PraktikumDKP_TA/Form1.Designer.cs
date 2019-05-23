@@ -127,7 +127,10 @@
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+			this.MaximizeBox = false;
 			this.Name = "Form1";
+			this.ShowIcon = false;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Tugas Akhir-nya Rizal";
 			this.ResumeLayout(false);
 			this.PerformLayout();

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PraktikumDKP_TA
@@ -24,7 +17,7 @@ namespace PraktikumDKP_TA
         {
             LoginSukses ls = new LoginSukses(Program.akuns[indexAkun].GetNama(), indexAkun);
             ls.Show();
-            this.Hide();
+            this.Close();
         }
 
         //Method button ubah password
@@ -54,7 +47,7 @@ namespace PraktikumDKP_TA
                 MessageBox.Show("Perubahan password berhasil!", "Sukses!");
                 LoginSukses ls = new LoginSukses(Program.akuns[indexAkun].GetNama(), indexAkun);
                 ls.Show();
-                this.Hide();
+                this.Close();
             }
         }
     }

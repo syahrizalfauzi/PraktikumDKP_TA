@@ -135,7 +135,10 @@
 			this.Controls.Add(this.kolomPasswordLama);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+			this.MaximizeBox = false;
 			this.Name = "UbahPassword";
+			this.ShowIcon = false;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Perubahan Password";
 			this.ResumeLayout(false);
 			this.PerformLayout();

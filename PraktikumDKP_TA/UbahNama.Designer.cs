@@ -93,7 +93,10 @@
 			this.Controls.Add(this.kolomNamaBaru);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+			this.MaximizeBox = false;
 			this.Name = "UbahNama";
+			this.ShowIcon = false;
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Perubahan Nama";
 			this.ResumeLayout(false);
 			this.PerformLayout();

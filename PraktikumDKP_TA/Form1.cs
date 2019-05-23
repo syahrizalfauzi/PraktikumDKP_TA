@@ -61,8 +61,8 @@ namespace PraktikumDKP_TA
         private void button2_Click(object sender, EventArgs e)
         {
             RegisterForm rf = new RegisterForm();
-            rf.Show();
-            this.Hide();
-        }
+			rf.Show();
+			this.Hide();
+		}
     }
 }
