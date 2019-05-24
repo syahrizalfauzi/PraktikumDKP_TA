@@ -25,36 +25,41 @@ namespace PraktikumDKP_TA
             password = passwordBox.Text;
 
             //Username & password harus tidak kosong
-            if (username != "" && password != "")
+            if (password.Length >= 6)
             {
-                //Cek ada akun atau tidak
-                for (int i = 0; i < Program.akuns.Count; i++)
+                if (username != "" && password != "")
                 {
-                    //Username & password benar
-                    if (Program.akuns[i].GetUsername() == username && Program.akuns[i].GetPassword() == password)
+                    //Cek ada akun atau tidak
+                    for (int i = 0; i < Program.akuns.Count; i++)
                     {
-                        LoginSukses ls = new LoginSukses(Program.akuns[i].GetNama(), i);
-                        ls.Show();
-                        this.Hide();
-                        break;
+                        //Username & password benar
+                        if (Program.akuns[i].GetUsername() == username && Program.akuns[i].GetPassword() == password)
+                        {
+                            LoginSukses ls = new LoginSukses(Program.akuns[i].GetNama(), i);
+                            ls.Show();
+                            this.Hide();
+                            break;
+                        }
+                        //Username benar, password salah
+                        else if (Program.akuns[i].GetUsername() == username && Program.akuns[i].GetPassword() != password)
+                        {
+                            MessageBox.Show("Mohon cek username dan password anda", "Identitas Salah!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            break;
+                        }
+                        //Username & password salah
+                        else if (i == Program.akuns.Count - 1 && Program.akuns[i].GetUsername() != username && Program.akuns[i].GetPassword() != password)
+                        {
+                            MessageBox.Show("Tidak ada akun yang menggunakan username ini", "Login Gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                     }
-                    //Username benar, password salah
-                    else if (Program.akuns[i].GetUsername() == username && Program.akuns[i].GetPassword() != password)
-                    {
-                        MessageBox.Show("Mohon cek username dan password anda", "Identitas Salah!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        break;
-                    }
-                    //Username & password salah
-                    else if (i == Program.akuns.Count - 1 && Program.akuns[i].GetUsername() != username && Program.akuns[i].GetPassword() != password)
-                    {
-                        MessageBox.Show("Tidak ada akun yang menggunakan username ini", "Login Gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                }
+                else
+                {
+                    MessageBox.Show("Username dan password kosong", "Login Gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
-            {
-                MessageBox.Show("Username dan password kosong", "Login Gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                MessageBox.Show("Password minimal 6 karakter!", "Login gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         //Button Daftar

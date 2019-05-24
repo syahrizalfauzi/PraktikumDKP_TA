@@ -29,34 +29,39 @@ namespace PraktikumDKP_TA
 			string username = usernameBox.Text;
 			string password = passwordBox.Text;
 			string nama = namaBox.Text;
-			//Username, password, dan nama tidak boleh kosong
-			if (username != "" && password != "" && nama != "")
-			{
-				//Cek semua akun jika username-nya yang sama
-				for (int i = 0; i < Program.akuns.Count; i++)
-				{
-					//Kalau ada username yang sama
-					if (Program.akuns[i].GetUsername() == usernameBox.Text)
-					{
-						MessageBox.Show("Username sudah diambil", "Pendaftaran gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-						break;
-					}
-					//Kalau tidak ada username yang sama
-					else if (i == Program.akuns.Count - 1)
-					{
-						Program.akuns.Add(new Akun(username, password, nama));
-						MessageBox.Show("Pendaftaran sukses!", "Berhasil!", MessageBoxButtons.OK);
-						usernameBox.Clear();
-						passwordBox.Clear();
-						namaBox.Clear();
-						break;
-					}
-				}
-			}
-			else
-			{
-				MessageBox.Show("Kolom pendaftaran tidak boleh ada yang kosong", "Pendaftaran gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-			}
-		}
+            //Username, password, dan nama tidak boleh kosong
+            if (password.Length >= 6)
+            {
+                if (username != "" && password != "" && nama != "")
+                {
+                    //Cek semua akun jika username-nya yang sama
+                    for (int i = 0; i < Program.akuns.Count; i++)
+                    {
+                        //Kalau ada username yang sama
+                        if (Program.akuns[i].GetUsername() == usernameBox.Text)
+                        {
+                            MessageBox.Show("Username sudah diambil", "Pendaftaran gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            break;
+                        }
+                        //Kalau tidak ada username yang sama
+                        else if (i == Program.akuns.Count - 1)
+                        {
+                            Program.akuns.Add(new Akun(username, password, nama));
+                            MessageBox.Show("Pendaftaran sukses!", "Berhasil!", MessageBoxButtons.OK);
+                            usernameBox.Clear();
+                            passwordBox.Clear();
+                            namaBox.Clear();
+                            break;
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Kolom pendaftaran tidak boleh ada yang kosong", "Pendaftaran gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+                MessageBox.Show("Password minimal 6 karakter!", "Pendaftaran gagal!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
 	}
 }

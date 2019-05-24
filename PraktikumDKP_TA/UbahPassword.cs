@@ -40,6 +40,8 @@ namespace PraktikumDKP_TA
             //Password baru tidak boleh sama dengan password lama
             else if (passwordLama == passwordBaru)
                 MessageBox.Show("Password baru tidak boleh sama dengan password lama!", "Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else if (passwordBaru.Length < 6 || passwordBaruKonf.Length < 6)
+                MessageBox.Show("Password minimal 6 karakter", "Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error);
             //Kalau kondisi sudah benar semua
             else
             {

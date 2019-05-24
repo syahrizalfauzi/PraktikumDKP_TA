@@ -16,3 +16,21 @@ C:\Users\Rizal\Google Drive\Kuliah\Semester 2\zPraktikum DKP\Tugas Akhir\Praktik
 C:\Users\Rizal\Google Drive\Kuliah\Semester 2\zPraktikum DKP\Tugas Akhir\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.application
 C:\Users\Rizal\Google Drive\Kuliah\Semester 2\zPraktikum DKP\Tugas Akhir\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.UbahPassword.resources
 C:\Users\Rizal\Google Drive\Kuliah\Semester 2\zPraktikum DKP\Tugas Akhir\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.UbahNama.resources
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\bin\Debug\PraktikumDKP_TA.exe.config
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\bin\Debug\PraktikumDKP_TA.exe.manifest
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\bin\Debug\PraktikumDKP_TA.application
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\bin\Debug\PraktikumDKP_TA.exe
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\bin\Debug\PraktikumDKP_TA.pdb
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.csprojAssemblyReference.cache
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.Form1.resources
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.LoginSukses.resources
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.Properties.Resources.resources
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.RegisterForm.resources
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.UbahNama.resources
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.UbahPassword.resources
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.csproj.GenerateResource.cache
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.csproj.CoreCompileInputs.cache
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.exe.manifest
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.application
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.exe
+C:\Users\Rizal\Documents\GitHub\PraktikumDKP_TA\PraktikumDKP_TA\obj\Debug\PraktikumDKP_TA.pdb
